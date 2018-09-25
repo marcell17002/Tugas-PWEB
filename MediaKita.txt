@@ -1,0 +1,16 @@
+
+Sarah Hasna Azzahra	140810170010
+Marcell Antonius 	140810170034
+
+		---------------MEDIA KITA-----------------
+
+    1. Penjelasan
+Media kita merupakan sebuah sarana bagi mahasiswa untuk berbagi tentang event yang ada di kampus mereka . Konten yang kami buat tidak hanya sebagai sarana untuk ajang promosi saja namun dalam konten ini kami juga menwarkan sebagai pihak kedua dalam penjualan berbagai tiket di event yang dimiliki oleh kampus di web media kita . Tidak hanya isu yang sedang hangat diperbincangkan di kampus-kampus tapi dalam konten web ini kami jugaa menyediakan informasi” aktual terhadap kampus tersebut . CRUD dalam konten web ini terjadi ketika user ingin mendaftar , pembelian tiket (update data) , ketika ingin sharing konten .  
+
+    2. Tujuan
+	Dalam sebuaah pengembangan web pasti ada tujuan tertentu yang melatarbelakanginnya .   Adapun beberapa tujuannya yaitu sebagai sarana publikasi dan promosi event kampus , sebagai wadah untuk melihat informasi aktual tentang kampus , sebagi sarana publikasi topik boncang utama yang ada di beberapa kampus . 
+    3. Fungsi
+       Adapun beberapa fungsi dalam pembuatan web ini yaitu untuk menggambangkan potensi mahasiswa , mengambangkan media kampus , mengangkat isu atau topic permasalahn terkini , mebantu mahasiswa dalam mepromosikan event kampous nya 
+
+    4. Target Pengguna
+Sesuai dengan yang sudah dijelaskan mengenai web Media kita ini, event yang ditampilkan di web Mediakita ini sangat banyak macamnya, dimulai dari hiburan, lomba, hingga seminar  yang ada di Indonesia. Tak lupa dalam target ini menyangkut beberapa aspek dalam penegejaran nya yaitu melibatkan badan eksekutif kampus tersedbut , pihak pemerintah yang peduli dengan topik teraktual lingkungan kampus . 

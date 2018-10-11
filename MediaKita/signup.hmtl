@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+	<link rel = "stylesheet" type = "text/css" href="css/styleSU.css">
+</head>
+<body>
+	<header>
+		<div class="main">
+			<ul>
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#">Whats On</a></li>
+				<li><a href="#">Event</a></li>
+				<li><a href="#">Campus</a></li>
+				<li><a href="#">About us</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div> 
+	</header>
+	<div class="SignUp">
+		<img src="image/user1.png" class="user">
+		<h2>Sign Up</h2>
+		<form>
+			<p>Name</p>
+			<input type="text" name="" placeholder="Enter Your Name">
+			<p>NPM</p>
+			<input type="text" name="" placeholder="Enter Your NPM">
+			<p>Univercity</p>
+			<input type="text" name="" placeholder="Enter Your Univercity">
+			<p>Username</p>
+			<input type="text" name="" placeholder="Enter Your Username">
+			<p>Password</p>
+			<input type="Password" name="" placeholder="Enter Your Password">
+			<p>Email</p>
+			<input type="text" name="" placeholder="this email is used for authentication">
+			<input type="Submit" name="" placeholder="Sign Up">
+			<input type="Submit" name="" placeholder="Log In">
+
+		</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* <a href=""><img src="image/right.jpg" class="rightarrow"/></a> 
+<a href=""><img src="image/left.jpg" class="leftarrow"/></a>
+*/
+header {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../image/1.jpg);
+    height: 100px;
+    background-size:  ;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent ;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+ul p a{
+    float: left;  
+    text-decoration: none; 
+    color: #1F4F82; 
+}
+
+ul p a:hover{
+    text-decoration: underline;
+}
+h1{
+    color: #1F4F82;
+    font-size: 1cm;
+    font-family: calibri;
+}
+h2{
+    color: #505050;
+    margin: 20px 0 20px 10px;
+}
+table {
+    border-collapse: collapse;
+    float: right;
+    width: 75%;
+}
+td{
+    text-align: left;
+    padding: 8px;
+    color: #1F4F82; 
+}
+tr td a{
+    text-decoration: none;
+    color: #1F4F82; 
+}
+
+tr td a:hover{
+    text-decoration: underline;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+    font-family: Century Gothic;
+}
+.boxes{
+    float: right;
+    width: 2cm;
+    height: 0.5cm;
+    margin: 20px 10px 0 0;
+}
+.leftarrow{
+    float: left;
+    border-right: 1px solid white;
+    width: 1cm;
+    height: 150px;
+}
+.rightarrow{
+    float: right;
+    border-left: 1px solid white;
+    width: 1cm;
+    height: 150px;
+}
+.mySlides {display: none}
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+.slide2{
+    float: left;
+    font-size: 0.4cm;
+    width: 187px;
+    border-right: 2px solid white;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+.sblock_2{
+    float: left;
+    font-size: 0.4cm;
+    width: 150px;
+    border-right: 1px solid white;
+    position: absolute;
+}
+
+.sblock2{
+    float: left;
+    font-size: 0.4cm;
+    width: 250px;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+    background: rgba(0,0,0,0.5);
+    background-image: (image/black.jpg);
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.link{
+    float: left;
+}
+.fixedwidth{
+    width:1300px;
+    margin: 0 auto;
+}
+.date{
+    font-weight: bold;
+    font-family: calibri;
+}
+.headlineimg{
+    float:left;
+}
+.newsitem{
+    position: relative;
+    text-align: justify;
+    left: 10px;
+    width: 250px;
+    float: left;
+    font-size: 0.5cm;
+    font-family: calibri;
+}
+.textonimg{
+    text-align: justify;  
+    width: 100%;
+    margin-top: -20%;
+    position: relative;
+    background: rgba(0,0,0,0.5);
+    background-image: (image/black.jpg);
+    display: flex;
+    color: #fff;
+}
+.textonimg2{
+    color: #D3D3D3;
+    text-decoration: none;
+}
+#content{
+    width: 100%;
+    color: #535353;
+    font-size: 0.5cm;
+}
+#slide{
+    background-color: #EEEEEE;
+    float: right;
+    margin: 0px 30px 0 0;
+    width: 380px;
+    position: relative;
+}
+#leftboxes{
+    float: left;
+    width: 60%;
+}
+#rightboxes{
+    float: right;
+    width: 40%;
+}
+.leftnews{
+    float: left;
+}
+/* Fake image */
+.fakeimg {
+    float: left;
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    border-right: 1px solid white;
+}
+.fakeimg2 {
+    background-color: #aaa;
+    width: 100%;
+    border-right: 1px solid white;
+}
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}

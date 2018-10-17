@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Whats On</title>
+	<link rel = "stylesheet" type = "text/css" href="styleWhatsOn.css">
+</head>
+<body>
+  <header>
+	<div class="main">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li class="active"><a href="#">WhatsOn</a></li>
+        <li><a href="#">Event</a></li>
+        <li><a href="#">Campus</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+  </div>
+  </header>
+  <div id="content">
+      <div class="fixedwidth">
+      <p><span class="date"> Sep 29, 2018</span></p>
+      <h1 style="width: 700px;">Mahasiswa Tenkik Sipil UNS Sulap Tulang Sapi dan Marmer Jadi Beton</h1>
+      <div>
+        <img src="image/uns.jpg" style="height:350px; width:550px; float: left;">
+      </div>
+      <div class="newsitem">
+        <p>Mahasiswa Universitas Sebelas Maret (UNS) Surakarta menciptakan inovasi teknologi beton mutu tinggi
+          dengan menggunakan limbah marmer dan tulang sapi. Mereka adalah Adhirajasa, Yesika Azzukhruf,
+          Panji Pramayswara Pamilih dan Farhan Nurfi Afriansyah, mahasiswa D3 Teknik Sipil (FT).
+          Keempat mahasiswa yang tergabung dalam grup Semar Solid itu menciptakan sebuah betok jenis Self Compacting
+          Concrete(SCC). <a href="">Read More</a>
+        </p>
+      </div>
+  <div id="slide" style="top: -60px">
+       <div class="boxes">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+      </div>
+      <h2>Read More</h2>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <div class="mySlides fade">
+        <div class="slide2">
+          <img class="fakeimg2" style="height: 150px; width: 187px;">
+          <p><a href="">Titanic letter could fetch</a></p>
+        </div>
+        <div class="slide2">
+          <img class="fakeimg2" style="height: 150px; width: 187px;">
+          <p><a href="">Titanic letter could fetch</a></p>
+        </div>
+      </div>
+      <div class="mySlides fade">
+        <div class="slide2">
+          <img class="fakeimg2" style="height: 150px; width: 187px;">
+          <p><a href="">ASDFGHJK</a></p>
+        </div>
+        <div class="slide2">
+          <img class="fakeimg2" style="height: 150px; width: 187px;">
+          <p><a href="">ZXCVBNM</a></p>
+        </div>
+      </div>
+
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+       <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+</script>
+      <ul class="link">
+        <p><a href="">BBC News Channel</a></p>
+        <p><a href="">BBC News Channel</a></p>
+        <p><a href="">BBC News Channel</a></p>
+      </ul>
+
+  </div>
+  <div id="leftboxes">
+    <div id="slide" style="float: left; width: 800px">
+      <h2>Read More</h2>
+      <div class="sblock2">
+        <img src="image/itbpalu.jpg" style="height: 200px; width: 250px;">
+          <div class="textonimg">
+          <p><a href="" class="textonimg2">Ahli Tsunami ITB Lakukan Penelitian di Lokasi Tsunami Palu</a></p>
+          </div>
+      </div>
+      <div class="sblock2">
+        <div class="fakeimg2" style="height: 200px; width: 250px;">
+          <p><a href="" style="text-align: justify;">Titanic letter could fetch</a></p>
+        </div>
+      </div>
+      <div class="sblock2">
+        <div class="fakeimg2" style="height: 200px; width: 250px;">
+          <p><a href="" style="text-align: justify;">Titanic letter could fetch</a></p>
+        </div>
+      </div>
+      <div class="sblock2">
+        <div class="fakeimg2" style="height: 200px; width: 250px;">
+          <p><a href="" style="text-align: justify;">Titanic letter could fetch</a></p>
+        </div>
+      </div>
+      <div class="sblock2">
+        <div class="fakeimg2" style="height: 200px; width: 250px;">
+          <p><a href="" style="text-align: justify;">Titanic letter could fetch</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="rightboxes">
+    <table>
+      <tr>
+        <td> Berita Terkini </td>
+      </tr>
+      <tr>
+        <td><a href=""> Universitas padjajaran asdghjklasdfghjklasdkjhaskjdgjksgdjksagdkjsgjkdajkd></a></td>
+      </tr>
+      <tr>
+        <td> PSM UNPAD JUARA2 </td>
+      </tr>
+      <tr>
+        <td> Lomba Arkavidia sudah dibuka </td>
+      </tr>
+    </table>
+  </div>
+    
+  </div>
+  </body>
+</html>

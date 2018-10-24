@@ -2,13 +2,66 @@
 	margin: 0;
 	padding: 0;
 	font-family: Century Gothic;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
 }
 
 header{
-	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../image/1.jpg);
 	height: 100vh;
-	background-size:  cover;
-	background-position: center;
+	max-width: 1370px;
+
+	background: url(../image/1_.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.mega-item{
+	text-align: center;
+}
+.article{
+	display: block;
+}
+.logo-header {
+    height: 70px;
+    width: auto;
+    text-shadow: 2px 2px #000;
+}
+
+.mySlides {
+	display:none;
+	height: 532px;
+	width: 1352px;
+}
+.col-8x {
+    width: 12.5%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.col-md-2 {
+    width: 16.66666667%;
+}
+.col-xs-4 {
+    width: 33.33333333%;
+}
+.col-sm-3 {
+    width: 25%;
+}
+.grid-meta{
+	position: absolute;
+    display: block;
+    font-size: 100%;
+    font-weight: 531;
+    padding: 3px 5px;
+    color: black;
+}
+.kategori{
+	left:4px;
+	bottom: 0;
 }
 
 ul{
@@ -40,11 +93,6 @@ ul li.active a{
 	color: #000;
 }
 
-.main{
-	max-width: 1200px;
-	margin: auto;
-
-}
 
 .title{
 	position: absolute;
@@ -78,3 +126,5 @@ ul li.active a{
 	background-color:  #fff;
 	color: #000;
 }
+
+.mySlides {display:none;}

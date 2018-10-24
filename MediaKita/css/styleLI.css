@@ -83,10 +83,10 @@ ul li.active a{
 	position: absolute;
 	top: 20%;
 	left: 50%;
-	transform: translate(-50%,-45%);
-	width: 650px;
-	height: 490px;
-	padding: 80px 70px;
+	transform: translate(50%,-45%);
+	width: 388px;
+	height: 380px;
+	padding: 64px 45px;
 	box-sizing: border-box;
 	background: rgba(0,0,0,0.5);
 	margin-top: 15%;

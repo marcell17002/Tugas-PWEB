@@ -8,14 +8,17 @@
 }
 
 header{
-	height: 100vh;
-	max-width: 1370px;
+	background-color: grey;
+}
+.footer{   
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #181818;
+   text-align: left;
+}
 
-	background: url(../image/1_.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 .mega-item{
 	text-align: center;
@@ -24,8 +27,11 @@ header{
 	display: block;
 }
 .logo-header {
-    height: 70px;
+    height: 50px;
     width: auto;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-shadow: 2px 2px #000;
 }
 
@@ -67,11 +73,12 @@ header{
 ul{
 	float: right;
 	list-style-type: none;
-	margin-top: 25px;
+	margin-top: 0px;
 }
 
 ul li{
 	display: inline-block;
+
 }
 
 ul li a{
@@ -128,3 +135,8 @@ ul li.active a{
 }
 
 .mySlides {display:none;}
+
+.kontak{
+	color:#ffff;
+	font-family: Century Gothic;
+}

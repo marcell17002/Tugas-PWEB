@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pembelian Tiket</title>
+	<link rel = "stylesheet" type = "text/css" href="css/styleP.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<header>
+	<div class="main">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">WhatsOn</a></li>
+        <li class="active"><a href="#">Event</a></li>
+        <li><a href="#">Campus</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+  	</div>
+  	</header>
+	<div class="inputbox">
+		<h1><center>Isi Identitas</center></h1>
+		<form action="output.php"  method="post">
+		<table>
+			<tr>
+				<td>Nama Lengkap : <input type="text" value="" name="nama" placeholder="Masukkan Nama Lengkap"> </td>
+			</tr>
+			<tr>
+				<td>No Identitas : <input type="text" value="" name="id"></td>
+			</tr>
+			<tr>
+				<td>Tempat Lahir : <input type="text" value="" name="tmpt"></td>
+			</tr>
+			<tr>
+				<td>Tanggal Lahir : <input type="date" id="start" name="trip" value="2018-07-22" min="1990-01-01" max="2018-12-31" /></td>
+			</tr>
+			<tr>
+				<td>Alamat Lengkap : <input type="text" value="" name="alamat"></td>
+			</tr>
+			<tr>
+				<td>Kode Pos : <input type="text" value="" name="pos"></td>
+			</tr>
+			<tr>
+				<td>Provinsi : <input type="text" value="" name="prov"></td>
+			</tr>
+			<tr>
+				<td>Kabupaten/Kota : <input type="text" value="" name="kab"></td>
+			</tr>
+			<tr>
+				<td>Kecamatan : <input type="text" value="" name="camat"></td>
+			</tr>		
+			<tr>
+				<td>Kelurahan : <input type="text" value="" name="lurah"></td>
+			</tr>
+			<tr>
+				<td>Jumlah Tiket : <input type="text" value="" name="jml"></td>
+			</tr>
+		</table>
+		</form>
+	</div>
+</body>
+</html>

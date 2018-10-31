@@ -6,7 +6,7 @@
 <a href=""><img src="image/left.jpg" class="leftarrow"/></a>
 */
 header {
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../image/1.jpg);
+    background-color: grey;
     height: 100px;
     background-size:  ;
     background-position: center;
@@ -58,15 +58,35 @@ h2{
     color: #505050;
     margin: 20px 0 20px 10px;
 }
-table {
+table{
     border-collapse: collapse;
-    float: right;
-    width: 75%;
+    text-align: left;
+    width: 100%;
+    background-color: #2f2f2f;
+    font-family: calibri;
 }
+th{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    background-color: #43636e;
+    color: white;  
+}
+tr:nth-child(even){
+    background-color: #363636;
+}
+/*
+363636
+2f2f2f
+b4bbb4
+*/
 td{
     text-align: left;
-    padding: 8px;
-    color: #1F4F82; 
+    color: #b4bbb4;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
 }
 tr td a{
     text-decoration: none;
@@ -77,9 +97,6 @@ tr td a:hover{
     text-decoration: underline;
 }
 
-tr:nth-child(even){
-    background-color: #f2f2f2;
-}
 .main{
     max-width: 1200px;
     margin: auto;
@@ -91,18 +108,7 @@ tr:nth-child(even){
     height: 0.5cm;
     margin: 20px 10px 0 0;
 }
-.leftarrow{
-    float: left;
-    border-right: 1px solid white;
-    width: 1cm;
-    height: 150px;
-}
-.rightarrow{
-    float: right;
-    border-left: 1px solid white;
-    width: 1cm;
-    height: 150px;
-}
+
 .mySlides {display: none}
 .fade{
     -webkit-animation-name: fade;
@@ -114,7 +120,7 @@ tr:nth-child(even){
     float: left;
     font-size: 0.4cm;
     width: 187px;
-    border-right: 2px solid white;
+    padding-left: 2px;
 }
 .dot {
   cursor: pointer;
@@ -133,16 +139,12 @@ tr:nth-child(even){
     float: left;
     font-size: 0.4cm;
     width: 150px;
-    border-right: 1px solid white;
     position: absolute;
 }
 
 .sblock2{
     float: left;
-    font-size: 0.4cm;
-    width: 250px;
-    border-right: 1px solid white;
-    border-bottom: 1px solid white;
+    width: 350px;
 }
 /* Next & previous buttons */
 .prev, .next {
@@ -203,6 +205,8 @@ tr:nth-child(even){
     background-image: (image/black.jpg);
     display: flex;
     color: #fff;
+    font-size: 0.6cm;
+    font-family: calibri;
 }
 .textonimg2{
     color: #D3D3D3;
@@ -214,19 +218,31 @@ tr:nth-child(even){
     font-size: 0.5cm;
 }
 #slide{
-    background-color: #EEEEEE;
+    background-color: #dce6e5;
     float: right;
     margin: 0px 30px 0 0;
     width: 380px;
     position: relative;
+    font-family: calibri;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 350px 350px;
+  grid-gap: 30px;
+  padding: 10px;
+  width: 60%;
+  float: right;
+  margin-top: 3%;
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
 #leftboxes{
     float: left;
-    width: 60%;
-}
-#rightboxes{
-    float: right;
-    width: 40%;
+    width: 35%;
+    margin-top: 3%;
 }
 .leftnews{
     float: left;
@@ -237,12 +253,10 @@ tr:nth-child(even){
     background-color: #aaa;
     width: 100%;
     padding: 20px;
-    border-right: 1px solid white;
 }
 .fakeimg2 {
     background-color: #aaa;
     width: 100%;
-    border-right: 1px solid white;
 }
 /* Footer */
 .footer {

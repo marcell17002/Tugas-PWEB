@@ -10,8 +10,7 @@
 header{
 	background-color: grey;
 }
-.footer{   
-   position: fixed;
+.footeqr{   
    left: 0;
    bottom: 0;
    width: 100%;
@@ -19,9 +18,20 @@ header{
    text-align: left;
 }
 
+.container{
+    margin-right: auto;
+    margin-left: auto;
+}
+.grid-meta{
+    margin-right: auto;
+    margin-left: auto;
 }
 .mega-item{
+	width: 400px;
+
 	text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 .article{
 	display: block;
@@ -140,3 +150,12 @@ ul li.active a{
 	color:#ffff;
 	font-family: Century Gothic;
 }
+
+.navbar{
+	top:10px;
+}
+.carousel-inner{
+	top:0px;
+}
+
+

@@ -83,8 +83,7 @@ ul li.active a{
     margin-top: -20px;
     padding: 15px;
 }
-.footer{   
-   position: fixed;
+.footeqr{   
    left: 0;
    bottom: 0;
    height: 5%;
@@ -93,9 +92,20 @@ ul li.active a{
    text-align: left;
 }
 
+.container{
+    margin-right: auto;
+    margin-left: auto;
+}
+.grid-meta{
+    margin-right: auto;
+    margin-left: auto;
 }
 .mega-item{
+	width: 400px;
+
 	text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 .article{
 	display: block;
@@ -196,6 +206,7 @@ ul li.active a{
 	color:#ffff;
 	font-family: Century Gothic;
 }
+<<<<<<< HEAD
 */
 .navbar{
     max-width: 100%;
@@ -377,3 +388,14 @@ ul img{
     height: 250px;
     object-fit: cover;
 }
+=======
+
+.navbar{
+	top:10px;
+}
+.carousel-inner{
+	top:0px;
+}
+
+
+>>>>>>> f5ef6f95fbf995fbbf1f17db769e14a8874eba87

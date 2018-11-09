@@ -1,17 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 	<title>Media Kita</title>
 	<link rel = "stylesheet" type = "text/css" href="css/style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<meta charset="utf-8">
-  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-  	<meta name="viewport" content="width=device-width, initial-scale=1">
-  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-</script>
 <body>
 	<header>
 		<div class = "navbar">
@@ -25,269 +17,100 @@
 			</ul>
 		</div>
 	</header>
-
-<div class="row">
-  <div class="col-sm-12">
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-
-      <div class="item active">
-        <img src="image/1.jpg" alt="rumah1" style="width:1920px;height:600px;">
-        <div class="carousel-caption">
-          <h3>Info Mahasiswa</h3>
-          <p>Cikarang, Bekasi</p>
+    <div class="slideshow-container">
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <div class="mySlides fade">
+        <div class="numbertext">1/3</div>
+        <img src="image/1.jpg" alt="rumah1" style="width: 100%;">
+        <div class="text">
+          Info Mahasiswa
+          Cikarang, Bekasi
         </div>
       </div>
-
-      <div class="item">
-        <img src="image/1_.jpg" alt="rumah2" style="width:1920px;height:600px;">
-        <div class="carousel-caption">
-          <h3>Seminar</h3>
-          <p>Ciwastra, Bandung</p>
-        </div>
+      <div class="mySlides fade">
+      	<div class="numbertext">2/3</div>
+        <img src="image/1_.jpg" alt="rumah2" style="width: 100%;">
+        <div class="text">Seminar</div>
       </div>
     
-      <div class="item">
-        <img src="image/1.jpg" alt="rumah3" style="width:1920px;height:600px;">
-        <div class="carousel-caption">
-          <h3>Konser</h3>
-          <p>Telkom, Bandung</p>
-        </div>
+      <div class="mySlides fade">
+      	<div class="numbertext">3/3</div>
+        <img src="image/1.jpg" alt="rumah3" style="width: 100%;">
+        <div class="text">Telkom, Bandung</div>
       </div>
-  
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
+	<br>
 
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-</div>
-
-
-
-	<section id="main" class="mega-grid">
-		<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-		<p><h2><center>Grab your Experience</center></h2></p>
-			</div>
-			<br><br>
-		
-		</div>
-		</div>
-		<div class="col-8x col-md-2 col-sm-3 col-xs-4 page-0 infscroll-item">
-			<article class="mega-item" style="height: 437.217px">
-				<figure class="grid-poster">
-					<img src="image/semnas.jpeg" style="width: 300 height:400">
-					<div class="grid-meta">
-						<div class="kategori">Seminar</div>
-						<div class="konten">Universitas Indonesia</div>
-						<div class="price">50000</div>
-						<footer><input type="button" value="BUY" style="color: red"></footer>
-					</div>
-				</figure>
-			</article>
-		</div>
-		<div class="col-8x col-md-2 col-sm-3 col-xs-4 page-0 infscroll-item">
-			<article class="mega-item" style="height: 437.217px">
-				<figure class="grid-poster">
-					<img src="image/semnas.jpeg" style="width: 200 height:300">
-					<div class="grid-meta">
-						<div class="kategori">Seminar</div>
-						<div class="konten">Universitas Indonesia</div>
-						<div class="price">50000</div>
-						<footer><input type="button" value="BUY" style="color: red"></footer>
-					</div>
-				</figure>
-			</article>
-		</div>
-		<div class="col-8x col-md-2 col-sm-3 col-xs-4 page-0 infscroll-item">
-			<article class="mega-item" style="height: 437.217px">
-				<figure class="grid-poster">
-					<img src="image/semnas.jpeg" style="width: 200 height:300">
-					<div class="grid-meta">
-						<div class="kategori">Seminar</div>
-						<div class="konten">Universitas Indonesia</div>
-						<div class="price">50000</div>
-						<footer><input type="button" value="BUY" style="color: red"></footer>
-					</div>
-				</figure>
-			</article>
-		</div>
-		<div class="col-8x col-md-2 col-sm-3 col-xs-4 page-0 infscroll-item">
-			<article class="mega-item" style="height: 437.217px">
-				<figure class="grid-poster">
-					<img src="image/semnas.jpeg" style="width: 200 height:300">
-					<div class="grid-meta">
-						<div class="kategori">Seminar</div>
-						<div class="konten">Universitas Indonesia</div>
-						<div class="price">50000</div>
-						<footer><input type="button" value="BUY" style="color: red"></footer>
-					</div>
-				</figure>
-			</article>
-		</div>
-		<div class="col-8x col-md-2 col-sm-3 col-xs-4 page-0 infscroll-item">
-			<article class="mega-item" style="height: 437.217px">
-				<figure class="grid-poster">
-					<img src="image/semnas.jpeg" style="width: 200 height:300">
-					<div class="grid-meta">
-						<div class="kategori">Seminar</div>
-						<div class="konten">Universitas Indonesia</div>
-						<div class="price">50000</div>
-						<footer><input type="button" value="BUY" style="color: red"></footer>
-					</div>
-				</figure>
-			</article>
-		</div>
-		<div class="col-8x col-md-2 col-sm-3 col-xs-4 page-0 infscroll-item">
-			<article class="mega-item" style="height: 437.217px">
-				<figure class="grid-poster">
-					<img src="image/semnas.jpeg" style="width: 200 height:300">
-					<div class="grid-meta">
-						<div class="kategori">Seminar</div>
-						<div class="konten">Universitas Indonesia</div>
-						<div class="price">50000</div>
-						<footer><input type="button" value="BUY" style="color: red"></footer>
-					</div>
-				</figure>
-			</article>
-		</div>
-		<div class="col-8x col-md-2 col-sm-3 col-xs-4 page-0 infscroll-item">
-			<article class="mega-item" style="height: 437.217px">
-				<figure class="grid-poster">
-					<img src="image/semnas.jpeg" style="width: 200 height:300">
-					<div class="grid-meta">
-						<div class="kategori">Seminar</div>
-						<div class="konten">Universitas Indonesia</div>
-						<div class="price">50000</div>
-						<footer><input type="button" value="BUY" style="color: red"></footer>
-					</div>
-				</figure>
-			</article>
-		</div>
-		<div class="col-8x col-md-2 col-sm-3 col-xs-4 page-0 infscroll-item">
-			<article class="mega-item" style="height: 437.217px">
-				<figure class="grid-poster">
-					<img src="image/semnas.jpeg" style="width: 200 height:300">
-					<div class="grid-meta">
-						<div class="kategori">Seminar</div>
-						<div class="konten">Universitas Indonesia</div>
-						<div class="price">50000</div>
-						<footer><input type="button" value="BUY" style="color: red"></footer>
-					</div>
-				</figure>
-			</article>
-		</div>
-		<div class="col-8x col-md-2 col-sm-3 col-xs-4 page-0 infscroll-item">
-			<article class="mega-item" style="height: 437.217px">
-				<figure class="grid-poster">
-					<img src="image/semnas.jpeg" style="width: 200 height:300">
-					<div class="grid-meta">
-						<div class="kategori">Seminar</div>
-						<div class="konten">Universitas Indonesia</div>
-						<div class="price">50000</div>
-						<footer><input type="button" value="BUY" style="color: red"></footer>
-					</div>
-				</figure>
-			</article>
-		</div>
-		<div class="col-8x col-md-2 col-sm-3 col-xs-4 page-0 infscroll-item">
-			<article class="mega-item" style="height: 437.217px">
-				<figure class="grid-poster">
-					<img src="image/semnas.jpeg" style="width: 200 height:300">
-					<div class="grid-meta">
-						<div class="kategori">Seminar</div>
-						<div class="konten">Universitas Indonesia</div>
-						<div class="price">50000</div>
-						<footer><input type="button" value="BUY" style="color: red"></footer>
-					</div>
-				</figure>
-			</article>
-		</div>
-		<div class="col-8x col-md-2 col-sm-3 col-xs-4 page-0 infscroll-item">
-			<article class="mega-item" style="height: 437.217px">
-				<figure class="grid-poster">
-					<img src="image/semnas.jpeg" style="width: 200 height:300">
-					<div class="grid-meta">
-						<div class="kategori">Seminar</div>
-						<div class="konten">Universitas Indonesia</div>
-						<div class="price">50000</div>
-						<footer><input type="button" value="BUY" style="color: red"></footer>
-					</div>
-				</figure>
-			</article>
-		</div>
-		<div class="col-8x col-md-2 col-sm-3 col-xs-4 page-0 infscroll-item">
-			<article class="mega-item" style="height: 437.217px">
-				<figure class="grid-poster">
-					<img src="image/semnas.jpeg" style="width: 200 height:300">
-					<div class="grid-meta">
-						<div class="kategori">Seminar</div>
-						<div class="konten">Universitas Indonesia</div>
-						<div class="price">50000</div>
-						<footer><input type="button" value="BUY" style="color: red"></footer>
-					</div>
-				</figure>
-			</article>
-		</div>
-	</section>
-
-
-	<div class="footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6">
-					<br>
-					<p><a href="#">Home</a></p>
-					<p><a href="#">Whats On</a></p>
-					<p><a href="#">Events</a></p>
-					<p><a href="#">Log in</a></p>
-					<p><a href="#">Sign up</a></p>
-				</div>
-				<div class="col-md-6">
-					<br>
-					<a href="#"><i class="fa fa-facebook-official" style="font-size:36px " href="#"></i></a>
-
-					<a href="#"><i class="fa fa-google" style="font-size:36px"></i></a>
-
-					<a href="#"><i class="fa fa-instagram" style="font-size:36px"></i></a>
-
-					<a href="#"><i class="fa fa-linkedin" style="font-size:36px"></i></a>
-					<br>
-				</div>
-				<div class="col-md-3">
-					<br>
-					<div class="kontak">
-					<p >Email</p>
-					<p>Hello.MediaKita@gmail.com</p>
-					</div>
-				</div>
-				<div class="col-md-3">
-					<br>
-					<div class="kontak">
-					<p>Working Hours</p>
-					<p>Weekdays 09.00-22.00 wib</p>
-					</div>
-				</div>
-			</div>
-
-		</div>
+	<div style="text-align:center">
+	  <span class="dot"></span> 
+	  <span class="dot"></span> 
+	  <span class="dot"></span> 
 	</div>
-			
+    <script>
+	var slideIndex = 0;
+	showSlides();
+
+	function showSlides() {
+	    var i;
+	    var slides = document.getElementsByClassName("mySlides");
+	    var dots = document.getElementsByClassName("dot");
+	    for (i = 0; i < slides.length; i++) {
+	       slides[i].style.display = "none";  
+	    }
+	    slideIndex++;
+	    if (slideIndex > slides.length) {slideIndex = 1}    
+	    for (i = 0; i < dots.length; i++) {
+	        dots[i].className = dots[i].className.replace(" active", "");
+	    }
+	    slides[slideIndex-1].style.display = "block";  
+	    dots[slideIndex-1].className += " active";
+	    setTimeout(showSlides, 2000); // Change image every 2 seconds
+	}
+</script>
+	<div class="wrap">
+  	<div class="column">
+  		<ul class="price">
+  			<li class="header"> Blazture </li>
+  			<li class="price-button">
+          	<img src="image/blazture.jpg" width="100%">
+          	Presale 2 : Rp 40.000 </li> 
+        	<li> Available Ticket :</li>
+        	<li class="price-button"><a href="#" class="button"> Buy Now </a></li>
+  		</ul>
+  	</div>
+  	<div class="column">
+  		<ul class="price">
+  			<li class="header"> Arthuration </li>
+  			<li class="price-button">
+          	<img src="image/arthuration.jpg" width="100%">
+          	Price : Rp 45.000,00 </li>
+        	<li> Available Ticket :</li>
+        	<li class="price-button"><a href="#" class="button">Buy Now </a></li>
+  		</ul>
+  	</div>
+  	<div class="column">
+  		<ul class="price">
+  			<li class="header"> Mural Competition </li>
+  			<li class="price-button">
+          	<img src="image/mural.jpg" width="100%"> Price : Rp 45.000,00   
+        	</li> 
+        	<li> Available Ticket : </li>
+        	<li class="price-button"><a href="#" class="button"> Buy Now </a></li>
+  		</ul>
+  	</div>
+  	<div class="column">
+  		<ul class="price">
+  			<li class="header"> Mural Competition </li>
+  			<li class="price-button">
+          	<img src="image/semnas.jpeg" width="100%">
+          	Price : Rp 45.000,00   
+        	</li> 
+        	<li> Available Ticket : </li>
+        	<li class="price-button"><a href="#" class="button"> Buy Now </a></li>
+  		</ul>
+  	</div>
+  	
+  </div>
 </body>
 </html>

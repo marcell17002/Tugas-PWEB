@@ -2,16 +2,16 @@
 	margin: 0;
 	padding: 0;
 	font-family: Century Gothic;
-	list-style: none;
-	text-decoration: none;
-	box-sizing: border-box;
 }
 
 header{
 	background-color: grey;
 	height: 100px;
-    background-position: center;
+  background-position: center;
 }
+/* <a href=""><img src="image/right.jpg" class="rightarrow"/></a> 
+<a href=""><img src="image/left.jpg" class="leftarrow"/></a>
+*/
 /*
 ul{
     float: right;
@@ -118,7 +118,6 @@ ul li.active a{
     margin-bottom: 10px;
     text-shadow: 2px 2px #000;
 }
-
 .mySlides {
 	display:none;
 }
@@ -300,16 +299,20 @@ ul li.active a{
     margin: auto;
     font-family: calibri;*/
     margin: 100px auto 100px;
-	display: grid;
-	grid-template-columns: repeat( auto-fit, minmax(250px, 1fr));
-	grid-gap: 10px;
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 .column{
-	position: relative;
-	width: 250px;
-	margin: 0 auto;
-	box-sizing: border-box;
-	text-align: center;
+    position: relative;
+    float: right;
+    width: 205px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid #689AAB; 
 
 }
 .price{
@@ -317,8 +320,8 @@ ul li.active a{
     border: 1px solid #eee;
     margin: 0;
     padding: 0;
-    background: #efed40;
-    color: #000;    
+    background: #689AAB;
+    color: #000;
 }
 .price:hover{
     box-shadow: 0 8px 12px 0 rgba(0,0,0,0.5);
@@ -326,18 +329,17 @@ ul li.active a{
 .price .header{
     background: #111;
     color: white;
-    font-size: 25px;
+    font-size: 15px;
     width: 100%;
-    padding: 10px;
 }
 .price li{
     border-bottom: 1px #eee dotted;
-    padding: 5px;
+    padding: 0;
     text-align: center;
     width: 100%;
 }
 .price .price-button{
-    background: #eee;
+    background: white;
     font-size: 15px;
     color: #000;
     font-weight: bold;
@@ -347,10 +349,10 @@ ul li.active a{
     background: #ff267e;
     border: none;
     color: white;
-    padding: 5px 10px 5px 10px;
+    padding: 6px 7px;
     text-align: center;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
 }
 .button:hover{
     background: #000;
@@ -384,18 +386,37 @@ ul li.active a{
 }
 
 ul img{
-	width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 150px;
     object-fit: cover;
 }
-=======
-
-.navbar{
-	top:10px;
+.event-header{
+    background-color: #43636e;
+    height: 100px;
+    background-size:  ;
+    background-position: center;
+    margin-top: 5%;
 }
-.carousel-inner{
-	top:0px;
+.event-header .text-light{
+    color: white;
+    font-family: Century Gothic;
+    font-size: 1cm;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
 }
-
-
->>>>>>> f5ef6f95fbf995fbbf1f17db769e14a8874eba87
+.button-sm{
+  padding: 20px 20px 20px 20px; 
+  margin-left: 10%;
+  background: #43636e;
+  border: none;
+  color: white;
+  margin-top: -10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.4cm;
+}
+.button-sm:hover{
+  background: black;
+  color: #eee;
+}

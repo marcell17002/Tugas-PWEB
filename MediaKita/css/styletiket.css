@@ -13,10 +13,11 @@ header {
     background-position: center;
 }
 body{
-    background: #E9E4E3;
+    background: white;
+    /*background: #E9E4E3;*/
 }
 .main{
-    max-width: 1200px;
+    max-width: 100%;
     margin: auto;
     font-family: Century Gothic;
 }
@@ -28,8 +29,10 @@ body{
 */
     margin: 100px auto 100px;
     display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat( auto-fit, minmax(200px, 1fr));
     grid-gap: 10px;
+    margin-top: 0;
+    margin-left: 20px;
 }
 
 .column{
@@ -39,11 +42,12 @@ body{
     box-sizing: border-box;
     text-align: center;*/
     position: relative;
-    float: left;
-    width: 250px;
+    float: right;
+    width: 205px;
     box-sizing: border-box;
     text-align: center;
     margin: 0 auto;
+    border: 1px solid #689AAB; 
 }
 
 .price{
@@ -51,8 +55,8 @@ body{
     border: 1px solid #eee;
     margin: 0;
     padding: 0;
-    background: #efed40;
-    color: #000;    
+    background: #689AAB;
+    color: #000;   
 }
 .price:hover{
     box-shadow: 0 8px 12px 0 rgba(0,0,0,0.5);
@@ -60,17 +64,17 @@ body{
 .price .header{
     background: #111;
     color: white;
-    font-size: 25px;
+    font-size: 15px;
     width: 100%;
 }
 .price li{
     border-bottom: 1px #eee dotted;
-    padding: 20px;
+    padding: 0;
     text-align: center;
     width: 100%;
 }
 .price .price-button{
-    background: #eee;
+    background: white;
     font-size: 15px;
     color: #000;
     font-weight: bold;
@@ -81,10 +85,10 @@ body{
     background: #ff267e;
     border: none;
     color: white;
-    padding: 10px 25px;
+    padding: 6px 7px;
     text-align: center;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
 }
 .button:hover{
     background: #000;
@@ -97,7 +101,7 @@ ul{
 }
 ul img{
     width: 200px;
-    height: 250px;
+    height: 150px;
     object-fit: cover;
 }
 ul li{
@@ -122,3 +126,123 @@ ul li.active a{
     background-color: #fff;
     color: #000;
 }
+.event-header{
+    background-color: #43636e;
+    height: 80px;
+    background-size:  ;
+    background-position: center;
+}
+.event-header .text-light{
+    color: white;
+    font-family: Century Gothic;
+    font-size: 1.2cm;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+.upbox{
+    float: left;
+    width: 90%;
+    margin-top: 3.5%;
+    margin-left: 2%;
+}
+.leftboxes{
+    float: left;
+    width: 25%;
+    margin-right: 20px;
+}
+table{
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+    background-color: white;
+    font-family: calibri;
+
+}
+.event-header .search-container {
+  float: right;
+}
+.event-header .search-container input {
+  font-size: inherit;
+  border: 0.05cm solid #43636e;
+  border-radius: 0.2cm 0 0 0.2cm;
+  padding: 0.2cm 0.1cm;
+  margin-top: 25px;
+  width: 400px;
+}
+.search-box-button {
+  /*float: ri;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;*/
+  float: right;
+  font-size: inherit;
+  border: 0.05cm solid #43636e;
+  border-radius: 0 0.2cm 0.2cm 0;
+  background-color: white;
+  border-left: 0;
+  margin-right: 100px;
+  margin-top: 25px;
+  padding: 0.1cm 0.2cm;
+  color: #43636e;
+}
+th{
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    background-color: #4F7582;
+    color: white;  
+    font-size: 0.7cm;
+    font-family: calibri;
+}
+td{
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    border-bottom: 1px solid #43636e;
+}
+
+tr td a{
+    text-decoration: none;
+    color: #6797a5; 
+    font-size: 0.5cm;
+}
+tr td a:hover{
+    color: #43636e;
+}
+#city{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 7px;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    background-color: #689AAB;
+    text-align: center;
+    font-weight: bold;
+    border: 7px solid white;
+    font-family: Century Gothic;
+}
+[class*="col-"]:hover {
+    background-color: #1D2B30;
+    color: white;
+    font-weight: bold;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}

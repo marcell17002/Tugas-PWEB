@@ -1,11 +1,11 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family: Century Gothic;
 }
 
 header{
     background-color: #43636e;
+<<<<<<< HEAD
     height: 70px;
     background-size:  ;
     background-position: center;
@@ -15,15 +15,35 @@ header{
 */
 /*
 ul{
+=======
+    height: 605px;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+
+footer{
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #181818;
+   text-align: left;
+   padding-top: 2%;
+}
+.foot{
+  margin-left: 15%;
+}
+.ul1{
+>>>>>>> d1341e39ea0239cda61949d1c12cce16d45044d8
     float: right;
     list-style-type: none;
     margin-top: 25px;
+    padding-right: 5%;
 }
-
 ul li{
     display: inline-block;
+    font-size: 17px;
 }
-
 ul li a{
     text-decoration: none;
     color: #fff;
@@ -31,86 +51,14 @@ ul li a{
     border: 1px solid transparent ;
     transition: 0.6s ease;
 }
-
 ul li a:hover{
     background-color: #fff;
     color: #000;
 }
-
-
 ul li.active a{
     background-color: #fff;
     color: #000;
 }
-.testimonials{
-	margin: 100px auto 100px;
-	display: grid;
-	grid-template-columns: repeat( auto-fit, minmax(350px, 1fr));
-	grid-gap: 20px;
-}
-.testimonials .poster{
-	position: relative;
-	width: 350px;
-	margin: 0 auto;
-	background: #43636e;
-	padding: 20px;
-	box-sizing: border-box;
-	text-align: center;
-	box-shadow: 0 10px 40px rgba(0,0,0,0.5);
-	overflow: hidden;
-}
-.testimonials .poster .layer{
-	z-index: 1;
-	position: absolute;
-	top: 100%;
-	width: 100%;
-	height: 100%;
-	background: linear-gradient(#6797a5, #bdd5d7);
-	transition: 0.5%;
-}
-.testimonials .poster:hover .layer{
-	top: 0;
-}
-.testimonials .poster .content{
-	z-index: 3;
-	position: relative;
-}
-.poster .content .header{
-    background: #6797a5;
-    color: white;
-    font-size: 25px;
-    width: 100%;
-    height: 50px;
-    margin-top: -20px;
-    padding: 15px;
-}
-.footeqr{   
-   left: 0;
-   bottom: 0;
-   height: 5%;
-   width: 100%;
-   background-color: #181818;
-   text-align: left;
-}
-
-.container{
-    margin-right: auto;
-    margin-left: auto;
-}
-.grid-meta{
-    margin-right: auto;
-    margin-left: auto;
-}
-.mega-item{
-	width: 400px;
-
-	text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-}
-.article{
-	display: block;
-}*/
 .logo-header {
     height: 50px;
     width: auto;
@@ -122,96 +70,12 @@ ul li.active a{
 .mySlides {
 	display:none;
 }
-/*
-.grid-meta{
-	position: absolute;
-    display: block;
-    font-size: 100%;
-    font-weight: 531;
-    padding: 3px 5px;
-    color: black;
-}
-.kategori{
-	left:4px;
-	bottom: 0;
-}
-
-ul{
-	float: right;
-	list-style-type: none;
-	margin-top: 0px;
-}
-
-ul li{
-	display: inline-block;
-
-}
-
-ul li a{
-	text-decoration: none;
-	color: #fff;
-	padding: 5px 20px;
-	border: 1px solid transparent ;
-	transition: 0.6s ease;
-}
-
-ul li a:hover{
-	background-color: #fff;
-	color: #000;
-}
-
-
-ul li.active a{
-	background-color: #fff;
-	color: #000;
-}
-
-
-.title{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-}
-
-.title h1{
-	color : #fff;
-	font-size: 70px;
-}
-
-.button{
-	position: absolute;
-	top: 60%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-}
-
-.btn{
-	border: 1px solid #fff;
-	padding: 10px 30px;
-	color: #fff;
-	text-decoration: none;
-	transition: 0.6s ease;
-
-}
-
-.btn:hover{
-	background-color:  #fff;
-	color: #000;
-}
-*/
 .mySlides {display:none;}
-/*
-.kontak{
-	color:#ffff;
-	font-family: Century Gothic;
-}
-<<<<<<< HEAD
-*/
+
 .navbar{
     max-width: 100%;
     margin: auto;
-    font-family: Century Gothic;
+    font-family: Arial, Helvetica;
 }
 .slideshow-container {
   max-width: 1000px;
@@ -294,17 +158,55 @@ ul li.active a{
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
-.wrap{
-    /*margin-top: 50px;
-    max-width: 1000px;
-    margin: auto;
-    font-family: calibri;*/
+
+.wrap2{
     margin: 100px auto 100px;
     display: grid;
     grid-template-columns: repeat( auto-fit, minmax(200px, 1fr));
-    grid-gap: 10px;
+    grid-gap: 0px;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.konten{
+  background-color: #43636e;
+  background-size: 100% 100%;
+}
+.konten2{
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.column1{
+    float: right;
+    width: 400px;
+    height: 194px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 40%;
+    border: 1px solid grey; 
+    box-shadow: grey;
+}
+.price1{
+    list-style: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    background: white;
+    color: #000;
+}
+.price1:hover{
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.5);
+}
+
+.wrap1{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(20px, 1fr));
+    margin-top: 20px;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-bottom: 15%;
 }
 .column{
     position: relative;
@@ -314,7 +216,6 @@ ul li.active a{
     text-align: center;
     margin: 0 auto;
     border: 1px solid #689AAB; 
-
 }
 .price{
     list-style: none;

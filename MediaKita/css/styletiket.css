@@ -6,6 +6,7 @@
 /* <a href=""><img src="image/right.jpg" class="rightarrow"/></a> 
 <a href=""><img src="image/left.jpg" class="leftarrow"/></a>
 */
+
 header {
     background-color: #43636e;
     height: 70px;
@@ -172,12 +173,28 @@ img{
     box-shadow: 0 8px 12px 0 rgba(0,0,0,0.5);
 }*/
 
+<<<<<<< HEAD
+=======
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+>>>>>>> d1341e39ea0239cda61949d1c12cce16d45044d8
 * {box-sizing: border-box;}
 ul {list-style-type: none;}
 body {font-family: Verdana, sans-serif;}
 
 th { color: #008; }
 td { text-align: center; }
+<<<<<<< HEAD
 .ui-datepicker,
 .ui-datepicker table,
 .ui-datepicker tr,
@@ -208,3 +225,7 @@ td { text-align: center; }
     -moz-box-shadow: 0px 1px 1px rgba(255,255,255, .1), inset 0px 1px 1px rgb(0,0,0);
     box-shadow: 0px 1px 1px rgba(255,255,255, .1), inset 0px 1px 1px rgb(0,0,0);
 }
+=======
+#sunday { color: #cc0000; }
+#today { background-color: #bebebe; color: #fff; font-weight: bold; }
+>>>>>>> d1341e39ea0239cda61949d1c12cce16d45044d8

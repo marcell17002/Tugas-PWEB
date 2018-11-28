@@ -7,8 +7,8 @@
 <a href=""><img src="image/left.jpg" class="leftarrow"/></a>
 */
 header {
-    background-color: grey;
-    height: 65px;
+    background-color: #43636e;
+    height: 70px;
     background-size:  ;
     background-position: center;
 }
@@ -47,33 +47,21 @@ body{
     box-sizing: border-box;
     text-align: center;
     margin: 0 auto;
-    border: 1px solid #689AAB; 
+    border: 1px; 
 }
 
 .price{
     list-style: none;
-    border: 1px solid #eee;
-    margin: 0;
-    padding: 0;
-    background: #689AAB;
     color: #000;   
 }
-.price:hover{
-    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.5);
-}
-.price .header{
-    background: #111;
-    color: white;
-    font-size: 15px;
-    width: 100%;
-}
-.price li{
+
+li{
     border-bottom: 1px #eee dotted;
     padding: 0;
     text-align: center;
     width: 100%;
 }
-.price .price-button{
+.price-button{
     background: white;
     font-size: 15px;
     color: #000;
@@ -94,21 +82,11 @@ body{
     background: #000;
     color: #eee;
 }
-ul{
+.main a{
     float: right;
     list-style-type: none;
     margin-top: 25px;
-}
-ul img{
-    width: 200px;
-    height: 150px;
-    object-fit: cover;
-}
-ul li{
-    display: inline-block;
-}
-
-ul li a{
+    margin-right: 25px;
     text-decoration: none;
     color: #fff;
     padding: 5px 20px;
@@ -116,13 +94,18 @@ ul li a{
     transition: 0.6s ease;
 }
 
-ul li a:hover{
+a{
+    display: inline-block;
+}
+
+
+.main a:hover{
     background-color: #fff;
     color: #000;
 }
 
 
-ul li.active a{
+.main .active a{
     background-color: #fff;
     color: #000;
 }
@@ -139,25 +122,12 @@ ul li.active a{
     margin-left: 30px;
     padding-top: 20px;
 }
-.upbox{
-    float: left;
-    width: 90%;
-    margin-top: 3.5%;
-    margin-left: 2%;
+img{
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
 }
-.leftboxes{
-    float: left;
-    width: 25%;
-    margin-right: 20px;
-}
-table{
-    border-collapse: collapse;
-    text-align: left;
-    width: 100%;
-    background-color: white;
-    font-family: calibri;
 
-}
 .event-header .search-container {
   float: right;
 }
@@ -189,52 +159,36 @@ table{
   padding: 0.1cm 0.2cm;
   color: #43636e;
 }
-th{
-    padding-left: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    text-align: left;
-    background-color: #4F7582;
-    color: white;  
-    font-size: 0.7cm;
-    font-family: calibri;
-}
-td{
-    text-align: left;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 20px;
-    border-bottom: 1px solid #43636e;
-}
 
-tr td a{
-    text-decoration: none;
-    color: #6797a5; 
-    font-size: 0.5cm;
-}
-tr td a:hover{
-    color: #43636e;
-}
-#city{
-    margin-left: 20px;
-    margin-right: 20px;
-    padding: 7px;
-}
 [class*="col-"] {
     float: left;
     padding: 15px;
-    background-color: #689AAB;
     text-align: center;
     font-weight: bold;
     border: 7px solid white;
     font-family: Century Gothic;
 }
-[class*="col-"]:hover {
-    background-color: #1D2B30;
-    color: white;
-    font-weight: bold;
-}
+/*#tiket:hover{
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.5);
+}*/
 
-footer{
-    
-}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+* {box-sizing: border-box;}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+th { color: #008; }
+td { text-align: center; }
+#sunday { color: #cc0000; }
+#today { background-color: #bebebe; color: #fff; font-weight: bold; }

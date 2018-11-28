@@ -5,9 +5,10 @@
 }
 
 header{
-	background-color: grey;
-	height: 100px;
-  background-position: center;
+    background-color: #43636e;
+    height: 70px;
+    background-size:  ;
+    background-position: center;
 }
 /* <a href=""><img src="image/right.jpg" class="rightarrow"/></a> 
 <a href=""><img src="image/left.jpg" class="leftarrow"/></a>

@@ -6,22 +6,21 @@
 <a href=""><img src="image/left.jpg" class="leftarrow"/></a>
 */
 header {
-    background-color: grey;
-    height: 100px;
+    background-color: #43636e;
+    height: 70px;
     background-size:  ;
     background-position: center;
 }
-ul{
+.main{
+    max-width: 100%;
+    margin: auto;
+    font-family: Century Gothic;
+}
+.main a{
     float: right;
     list-style-type: none;
     margin-top: 25px;
-}
-
-ul li{
-    display: inline-block;
-}
-
-ul li a{
+    margin-right: 25px;
     text-decoration: none;
     color: #fff;
     padding: 5px 20px;
@@ -29,29 +28,25 @@ ul li a{
     transition: 0.6s ease;
 }
 
-ul li a:hover{
+a{
+    display: inline-block;
+}
+
+
+.main a:hover{
     background-color: #fff;
     color: #000;
 }
 
 
-ul li.active a{
+.main .active a{
     background-color: #fff;
     color: #000;
 }
 
-ul p a{
-    float: left;  
-    text-decoration: none; 
-    color: #1F4F82; 
-}
-
-ul p a:hover{
-    text-decoration: underline;
-}
 h1{
     color: #1F4F82;
-    font-size: 1cm;
+    font-size: relative;
     font-family: calibri;
 }
 h2{
@@ -119,8 +114,7 @@ tr td a:hover{
 .slide2{
     float: left;
     font-size: 0.4cm;
-    width: 187px;
-    padding-left: 2px;
+    width: 100%;
 }
 .dot {
   cursor: pointer;
@@ -144,13 +138,13 @@ tr td a:hover{
 
 .sblock2{
     float: left;
-    width: 350px;
+    width: 100%;
 }
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 35%;
   width: auto;
   padding: 16px;
   margin-top: -22px;
@@ -182,16 +176,12 @@ tr td a:hover{
 }
 .date{
     font-weight: bold;
-    font-family: calibri;
-}
-.headlineimg{
-    float:left;
+    font-family: Utopia;
 }
 .newsitem{
     position: relative;
     text-align: justify;
-    left: 10px;
-    width: 250px;
+    width: 90%;
     float: left;
     font-size: 0.5cm;
     font-family: calibri;
@@ -205,7 +195,7 @@ tr td a:hover{
     background-image: (image/black.jpg);
     display: flex;
     color: #fff;
-    font-size: 0.6cm;
+    font-size: relative;
     font-family: calibri;
 }
 .textonimg2{
@@ -219,20 +209,17 @@ tr td a:hover{
 }
 #slide{
     background-color: #dce6e5;
-    float: right;
-    margin: 0px 30px 0 0;
-    width: 380px;
-    position: relative;
     font-family: calibri;
+    height: 30%;
+    top: 130px;
+    margin: 0;
+    padding: 0;
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: 350px 350px;
+  grid-template-columns: 300px 300px;
   grid-gap: 30px;
-  padding: 10px;
-  width: 60%;
-  float: right;
   margin-top: 3%;
 }
 .grid-container > div {
@@ -249,14 +236,9 @@ tr td a:hover{
 }
 /* Fake image */
 .fakeimg {
-    float: left;
     background-color: #aaa;
     width: 100%;
-    padding: 20px;
-}
-.fakeimg2 {
-    background-color: #aaa;
-    width: 100%;
+    height: 150px;
 }
 /* Footer */
 .footer {

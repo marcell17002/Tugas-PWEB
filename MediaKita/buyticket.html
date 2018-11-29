@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Buy Ticket</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel = "stylesheet" type = "text/css" href="css/stylebt.css">
+</head>
+<body>
+  <header>
+	<div class="main">
+    <a href="#">Home</a>
+    <a href="#">WhatsOn</a>
+    <a class="active" href="#">Event</a>
+    <a href="#">About us</a>
+    <a href="#">Contact</a>
+  </div>
+  </header>
+  <div class="container" style="margin-top: 80px;">
+    <div class="row">
+    <div class="col-sm-8">
+    <div class="input_data">
+      <form name="bt" action="/action_page.php">
+        <h2 class="text-header">Buy Ticket</h2>
+        Kode Transaksi<br>
+        <input type="text" name="kd_Transaksi">
+        <br>
+        ID Event<br>
+        <input type="text" name="ID_Event">
+        <br>
+        Nama Lengkap<br>
+        <input type="text" name="nama_pembeli">
+        <br>
+        No Identitas (KTP/Passport)<br>
+        <input type="text" name="no_identitas">
+        <br>
+        No Hp<br>
+        <input type="text" name="no_telpon">
+        <br>
+        Email<br>
+        <input type="text" name="email_pembeli">
+      </form> 
+    </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="input_data" style="background-color: #f9f9f9;">
+        <form name="bt" action="/action_page.php" style="margin-top: 49px;" method="post">
+        Harga <br>
+        <input type="text" id="price" onfocus="startHitung()" onblur="akhirHitung()">
+        Jumlah Tiket
+        <input type="text" id="tot_ticket" onfocus="startHitung()" onblur="akhirHitung()">
+        Total
+        <input type="text" id="tot_price" readonly>
+        <br><br>
+        <input type="button" value="CHECK OUT" class="submit-button" readonly>
+        <script>
+          function startHitung(){
+            interval = setInterval("hitung()",1);
+          }
+          function hitung(){
+            var harga = parseInt(document.getElementById("price").value);
+            var jumlahtiket = parseInt(document.getElementById("tot_ticket").value);
+            Jumlah = harga*jumlahtiket;
+            document.getElementById("tot_price").value=Jumlah;
+          }
+          function akhirHitung(){
+            clearInterval(interval);
+          }
+      </script>
+      </div>
+    </div>
+  </div>
+  </div>  
+</body>
+</html>

@@ -5,6 +5,17 @@
 
 header{
     background-color: #43636e;
+<<<<<<< HEAD
+    height: 70px;
+    background-size:  ;
+    background-position: center;
+}
+/* <a href=""><img src="image/right.jpg" class="rightarrow"/></a> 
+<a href=""><img src="image/left.jpg" class="leftarrow"/></a>
+*/
+/*
+ul{
+=======
     height: 605px;
     background-position: center;
     text-align: center;
@@ -23,6 +34,7 @@ footer{
   margin-left: 15%;
 }
 .ul1{
+>>>>>>> d1341e39ea0239cda61949d1c12cce16d45044d8
     float: right;
     list-style-type: none;
     margin-top: 25px;

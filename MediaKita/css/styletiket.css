@@ -173,6 +173,8 @@ img{
     box-shadow: 0 8px 12px 0 rgba(0,0,0,0.5);
 }*/
 
+<<<<<<< HEAD
+=======
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -185,11 +187,45 @@ img{
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+>>>>>>> d1341e39ea0239cda61949d1c12cce16d45044d8
 * {box-sizing: border-box;}
 ul {list-style-type: none;}
 body {font-family: Verdana, sans-serif;}
 
 th { color: #008; }
 td { text-align: center; }
+<<<<<<< HEAD
+.ui-datepicker,
+.ui-datepicker table,
+.ui-datepicker tr,
+.ui-datepicker td,
+.ui-datepicker th {
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-spacing: 0;
+}
+.ui-datepicker {
+    display: none;
+    width: 294px;
+    padding: 35px;
+    cursor: default;
+ 
+    text-transform: uppercase;
+    font-family: Tahoma;
+    font-size: 12px;
+ 
+    background: #141517;
+ 
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+ 
+    -webkit-box-shadow: 0px 1px 1px rgba(255,255,255, .1), inset 0px 1px 1px rgb(0,0,0);
+    -moz-box-shadow: 0px 1px 1px rgba(255,255,255, .1), inset 0px 1px 1px rgb(0,0,0);
+    box-shadow: 0px 1px 1px rgba(255,255,255, .1), inset 0px 1px 1px rgb(0,0,0);
+}
+=======
 #sunday { color: #cc0000; }
 #today { background-color: #bebebe; color: #fff; font-weight: bold; }
+>>>>>>> d1341e39ea0239cda61949d1c12cce16d45044d8

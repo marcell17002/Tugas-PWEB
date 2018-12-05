@@ -5,17 +5,18 @@
 	<link rel = "stylesheet" type = "text/css" href="css/dashboard.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
 	<header>
 		<div class = "navbar">
 		<ul class ="ul1">
 	        <li><a href="tugas.html">Home</a></li>
-	        <li><a href="WhatsOn.html">Whats On</a></li>
-	        <li><a href="tiket.html">Event</a></li>
-	        <li><a href="dashboard.html">Upload</a></li>
+	        <li><a href="WhatsOnManage.html">Whats On</a></li>
+	        <li><a href="tiketManage.html">Event</a></li>
+	        <li><a href="pilih.html">Upload</a></li>
 	        <li><a href="user.html">Contain</a></li>
-	        <li><a href="abu.html">About us</a></li>
+	        <li><a href="abuManage.html">About us</a></li>
       	</ul>
 		</div>
 	</header>
@@ -26,18 +27,16 @@
 	<br><br>
 	<div class="konten">
 		<form action="" method="">
-			<div class="Container-fluid">
+			<div class="Container">
 				<div class="row1">
 					<div class="col-md-4">
 						Judul
 					</div>
 					<div class="col-md-8">
-						<input type="text" name="judul" value="" style="width: 500px;">
+						<input type="text" name="judul" value="Judul " style="width: 500px;">
 					</div>
 				</div>
-
 				<br><br>
-				
 				<div class="row1">
 					<div class="col-md-4">
 						Kategori
@@ -53,65 +52,101 @@
 						</select>
 					</div>
 				</div>
-				
 				<br><br>
-				
 				<div class="row1">
 					<div class="col-md-4">
 						Deksripsi 
 					</div>
 					<div class="col-md-8">
-						<textarea name="desk" style="width:250px;height:150px;"></textarea>
+						<textarea name="desk" style="width:250px;height:100px;" value="deskripsi /isian"></textarea>
 					</div>
 				</div>	
-				
-				<br><br>
-				
 				<div class="row1">
 					<div class="col-md-4" style="text-align: left;">
 						Harga 
 					</div>
 					<div class="col-md-8">
-						<input type="text" name="harga" value="">
+						<input type="text" name="harga" value="Rp.00000,00">
 					</div>
 				</div>
-
 				<br><br>
-
 				<div class="row1">
 					<div class="col-md-4" style="text-align: left;">
 						Stok 
 					</div>
 					<div class="col-md-8">
-						<input type="text" name="stok" value="">
+						<input type="text" name="stok" value="jumlah stok">
 					</div>
 				</div>
-
-				<br><br>
-
+				<br>
 				<div class="row1">
 					<div class="col-md-4">
 						Rekening
 					</div>
 					<div class="col-md-8">
-						<input type="text" name="rekening" value="">
+						<input type="text" name="rekening" value="xxxxx xxx xxx">
 					</div>
 				</div>
-
 				<br><br>
-
 				<div class="row1">
 					<div class="col-md-4">
 						Nama Rekening
 					</div>
 					<div class="col-md-8">
-						<input type="text" name="nama_rek" value="">
+						<input type="text" name="nama_rek" value="nama rekening">
 					</div>
 				</div>
-				<br><br>
+				<input type="submit" name="submit" value="input" style="margin-left: 700px;">
 			</div>
 		</form>
 	</div>
+
+	<footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6" >
+          <br>
+          <div class="foot">
+            <p><a href="tugas.html">Home</a></p>
+            <p><a href="WhatsOn.html">Whats On</a></p>
+            <p><a href="ticket.html">Events</a></p>
+            <p><a href="login.html">Log in</a></p>
+            <p><a href="#">Sign up</a></p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <br>
+          <a href="#"><i class="fa fa-facebook-official" style="font-size:36px "></i></a>
+
+          <a href="#"><i class="fa fa-google" style="font-size:36px"></i></a>
+
+          <a href="#"><i class="fa fa-instagram" style="font-size:36px"></i></a>
+
+          <a href="#"><i class="fa fa-linkedin" style="font-size:36px"></i></a>
+          <br>
+        </div>
+        <div class="col-md-3">
+          <br>
+          <div class="kontak">
+          <p >Email</p>
+          <p>Hello.MediaKita@gmail.com</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <br>
+          <div class="kontak">
+          <p>Working Hours</p>
+          <p>Weekdays 09.00-22.00 wib</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h6 style="color:#ffff;"><center>©2018 MediaKita</center></h6>
+        </div>
+      </div>
+    </div>
+  </footer>
 	
 </body>
 </html>

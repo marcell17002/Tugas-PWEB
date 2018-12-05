@@ -1,11 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
-/* <a href=""><img src="image/right.jpg" class="rightarrow"/></a> 
-<a href=""><img src="image/left.jpg" class="leftarrow"/></a>
-*/
 header {
     background-color: #43636e;
     height: 70px;
@@ -19,18 +15,19 @@ body{
 .main{
     max-width: 100%;
     margin: auto;
-    font-family: Century Gothic;
+    font-family: Arial, Helvetica;
 }
 .main a{
     float: right;
     list-style-type: none;
-    margin-top: 25px;
+    margin-top: 20px;
     margin-right: 25px;
     text-decoration: none;
     color: #fff;
     padding: 5px 20px;
     border: 1px solid transparent ;
     transition: 0.6s ease;
+    font-size: 17px;
 }
 
 a{
@@ -80,4 +77,15 @@ input{
 .submit-button:hover{
     background-color: #43636e;
     cursor: pointer;
+}
+footer{
+   width: 100%;
+   background-color: #181818;
+   text-align: left;
+   padding-top: 2%;
+   margin-top: 100px;
+
+}
+.foot{
+  margin-left: 15%;
 }
